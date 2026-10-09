@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# pycoach launcher.
+#
+# Works whether this file is run directly from a clone, reached through a
+# symlink on your PATH, or copied somewhere else.
+set -euo pipefail
+
+self="$(readlink -f "${BASH_SOURCE[0]}" 2>/dev/null || echo "${BASH_SOURCE[0]}")"
+here="$(cd "$(dirname "$self")" && pwd)"
+
+exec "${PYTHON:-python3}" "$here/../pycoach.py" "$@"

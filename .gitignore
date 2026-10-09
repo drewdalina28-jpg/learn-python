@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editors and platforms
+.vscode/
+.idea/
+.DS_Store
+
+# Learner work and progress (these live in your home folder, never in the repo)
+pycoach-work/
+.pycoach/
