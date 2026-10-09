@@ -44,7 +44,7 @@ PYCOACH  -  learn Python one small step at a time
 
 ```bash
 pkg install python git
-git clone https://github.com/drewdalina28-jpg/pycoach.git
+git clone https://github.com/drewdalina28-jpg/learn-python.git
 cd pycoach
 ./install.sh
 pycoach
@@ -53,7 +53,7 @@ pycoach
 ### Linux, macOS, WSL
 
 ```bash
-git clone https://github.com/drewdalina28-jpg/pycoach.git
+git clone https://github.com/drewdalina28-jpg/learn-python.git
 cd pycoach
 ./install.sh
 pycoach
@@ -62,7 +62,7 @@ pycoach
 ### Without installing anything
 
 ```bash
-git clone https://github.com/drewdalina28-jpg/pycoach.git
+git clone https://github.com/drewdalina28-jpg/learn-python.git
 cd pycoach
 python3 pycoach.py
 ```
